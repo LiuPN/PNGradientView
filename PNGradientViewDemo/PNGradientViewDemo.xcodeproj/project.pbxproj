@@ -23,10 +23,6 @@
 		DE91D2EC20639288008B1084 /* PNTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D2EB20639288008B1084 /* PNTextViewController.m */; };
 		DE91D2EF20639292008B1084 /* PNLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D2EE20639292008B1084 /* PNLabelViewController.m */; };
 		DE91D2F22063929B008B1084 /* PNButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D2F12063929B008B1084 /* PNButtonViewController.m */; };
-		DE91D3012063A4DC008B1084 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DE91D2FD2063A4DB008B1084 /* 3.png */; };
-		DE91D3022063A4DC008B1084 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DE91D2FE2063A4DC008B1084 /* 4.png */; };
-		DE91D3032063A4DC008B1084 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE91D2FF2063A4DC008B1084 /* 2.png */; };
-		DE91D3042063A4DC008B1084 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE91D3002063A4DC008B1084 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,10 +75,6 @@
 		DE91D2EE20639292008B1084 /* PNLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNLabelViewController.m; sourceTree = "<group>"; };
 		DE91D2F02063929B008B1084 /* PNButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNButtonViewController.h; sourceTree = "<group>"; };
 		DE91D2F12063929B008B1084 /* PNButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNButtonViewController.m; sourceTree = "<group>"; };
-		DE91D2FD2063A4DB008B1084 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
-		DE91D2FE2063A4DC008B1084 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		DE91D2FF2063A4DC008B1084 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		DE91D3002063A4DC008B1084 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,10 +216,6 @@
 				DE91D2EE20639292008B1084 /* PNLabelViewController.m */,
 				DE91D2F02063929B008B1084 /* PNButtonViewController.h */,
 				DE91D2F12063929B008B1084 /* PNButtonViewController.m */,
-				DE91D3002063A4DC008B1084 /* 1.png */,
-				DE91D2FF2063A4DC008B1084 /* 2.png */,
-				DE91D2FD2063A4DB008B1084 /* 3.png */,
-				DE91D2FE2063A4DC008B1084 /* 4.png */,
 			);
 			path = GradientVc;
 			sourceTree = "<group>";
@@ -338,13 +326,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE91D3032063A4DC008B1084 /* 2.png in Resources */,
 				DE785F14205F6A5E00758B17 /* LaunchScreen.storyboard in Resources */,
 				DE785F11205F6A5E00758B17 /* Assets.xcassets in Resources */,
 				DE785F0F205F6A5E00758B17 /* Main.storyboard in Resources */,
-				DE91D3022063A4DC008B1084 /* 4.png in Resources */,
-				DE91D3012063A4DC008B1084 /* 3.png in Resources */,
-				DE91D3042063A4DC008B1084 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
