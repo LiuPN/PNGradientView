@@ -1,5 +1,5 @@
 //
-//  PLRandomProgressView.h
+//  PNRandomProgressView.h
 //  进度条渐变
 //
 //  Created by lpn on 2018/2/27.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface PLRandomProgressView : UIView
+@interface PNRandomProgressView : UIView
 // 实例函数
 @property(nonatomic, strong)NSArray <UIColor *> *colors;
 

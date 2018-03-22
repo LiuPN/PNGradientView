@@ -1,29 +1,30 @@
 //
-//  PLRandomProgressView.m
+//  PNRandomProgressView.m
 //  进度条渐变
 //
 //  Created by lpn on 2018/2/27.
 //  Copyright © 2018年 LPN. All rights reserved.
 //
 
-#import "PLRandomProgressView.h"
+#import "PNRandomProgressView.h"
 
-@interface PLRandomProgressView()
+@interface PNRandomProgressView()
 
 @property(nonatomic, strong)  NSMutableArray *gradientColors; // 渐变颜色
 @property(nonatomic, weak) UIView * shadow;
 
 @end
-@implementation PLRandomProgressView
+@implementation PNRandomProgressView
 
 /// init initWithFrame都会调用这个方法
 - (instancetype)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
         // 外侧圆角设置
-        self.layer.cornerRadius = 5.0;
-        self.layer.borderWidth = 0.5;
-        self.layer.borderColor = BQLeftColor.CGColor;
+        self.layer.cornerRadius = frame.size.height * 0.5;
+        self.layer.borderWidth = 2;
+        self.layer.borderColor = [UIColor redColor].CGColor;
+        self.backgroundColor = [UIColor whiteColor];
         self.layer.masksToBounds = YES;
 
      
@@ -31,8 +32,8 @@
         UIView * shadow = [[UIView alloc] init];
 //        [self insertSubview:shadow belowSubview:progressView];
         shadow.layer.shadowOffset = CGSizeMake(0, 0);
-        shadow.layer.shadowColor = BQRightColor.CGColor;
-        shadow.backgroundColor = BQRightColor;
+        shadow.layer.shadowColor = [UIColor greenColor].CGColor;
+        shadow.backgroundColor = [UIColor greenColor];
         shadow.clipsToBounds = NO;
         shadow.layer.shadowOpacity = 0.8;
         shadow.layer.shadowRadius = 2;
@@ -94,14 +95,14 @@
         _progress = 0.0;
         self.layer.borderColor = [UIColor clearColor].CGColor;
         self.shadow.hidden = YES; // CWColor(229,229,229)
-        self.backgroundColor = CWColor(229,229,229);
+        self.backgroundColor = [UIColor lightGrayColor];
         [self setNeedsDisplay];
         
         
         return;
     }else{
         // 重新执行动画
-        self.layer.borderColor = BQLeftColor.CGColor;
+        self.layer.borderColor = [UIColor redColor].CGColor;
         [self setNeedsDisplay];
         
     }

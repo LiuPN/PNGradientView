@@ -16,9 +16,13 @@
 		DE785F21205F6A5E00758B17 /* PNGradientViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE785F20205F6A5E00758B17 /* PNGradientViewDemoTests.m */; };
 		DE785F2C205F6A5E00758B17 /* PNGradientViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE785F2B205F6A5E00758B17 /* PNGradientViewDemoUITests.m */; };
 		DE785F3B205F822900758B17 /* PNGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE785F3A205F822900758B17 /* PNGradientButton.m */; };
-		DE785F42205F825F00758B17 /* HCGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE785F3E205F825E00758B17 /* HCGradientLabel.m */; };
-		DE785F43205F825F00758B17 /* CRGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE785F40205F825E00758B17 /* CRGradientLabel.m */; };
-		DE91D2E6206388FE008B1084 /* PLRandomProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D2E5206388FD008B1084 /* PLRandomProgressView.m */; };
+		DE785F42205F825F00758B17 /* PNGradientText.m in Sources */ = {isa = PBXBuildFile; fileRef = DE785F3E205F825E00758B17 /* PNGradientText.m */; };
+		DE785F43205F825F00758B17 /* PNGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE785F40205F825E00758B17 /* PNGradientLabel.m */; };
+		DE91D2E6206388FE008B1084 /* PNRandomProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D2E5206388FD008B1084 /* PNRandomProgressView.m */; };
+		DE91D2E92063927E008B1084 /* PNProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D2E82063927E008B1084 /* PNProgressViewController.m */; };
+		DE91D2EC20639288008B1084 /* PNTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D2EB20639288008B1084 /* PNTextViewController.m */; };
+		DE91D2EF20639292008B1084 /* PNLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D2EE20639292008B1084 /* PNLabelViewController.m */; };
+		DE91D2F22063929B008B1084 /* PNButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D2F12063929B008B1084 /* PNButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +61,20 @@
 		DE785F2D205F6A5E00758B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE785F39205F822900758B17 /* PNGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGradientButton.h; sourceTree = "<group>"; };
 		DE785F3A205F822900758B17 /* PNGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGradientButton.m; sourceTree = "<group>"; };
-		DE785F3C205F825E00758B17 /* CRGradientLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGradientLabel.h; sourceTree = "<group>"; };
-		DE785F3D205F825E00758B17 /* HCGradientLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCGradientLabel.h; sourceTree = "<group>"; };
-		DE785F3E205F825E00758B17 /* HCGradientLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCGradientLabel.m; sourceTree = "<group>"; };
-		DE785F40205F825E00758B17 /* CRGradientLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRGradientLabel.m; sourceTree = "<group>"; };
-		DE91D2E4206388FD008B1084 /* PLRandomProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRandomProgressView.h; sourceTree = "<group>"; };
-		DE91D2E5206388FD008B1084 /* PLRandomProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRandomProgressView.m; sourceTree = "<group>"; };
+		DE785F3C205F825E00758B17 /* PNGradientLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGradientLabel.h; sourceTree = "<group>"; };
+		DE785F3D205F825E00758B17 /* PNGradientText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGradientText.h; sourceTree = "<group>"; };
+		DE785F3E205F825E00758B17 /* PNGradientText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGradientText.m; sourceTree = "<group>"; };
+		DE785F40205F825E00758B17 /* PNGradientLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGradientLabel.m; sourceTree = "<group>"; };
+		DE91D2E4206388FD008B1084 /* PNRandomProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRandomProgressView.h; sourceTree = "<group>"; };
+		DE91D2E5206388FD008B1084 /* PNRandomProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRandomProgressView.m; sourceTree = "<group>"; };
+		DE91D2E72063927E008B1084 /* PNProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNProgressViewController.h; sourceTree = "<group>"; };
+		DE91D2E82063927E008B1084 /* PNProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNProgressViewController.m; sourceTree = "<group>"; };
+		DE91D2EA20639288008B1084 /* PNTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNTextViewController.h; sourceTree = "<group>"; };
+		DE91D2EB20639288008B1084 /* PNTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNTextViewController.m; sourceTree = "<group>"; };
+		DE91D2ED20639292008B1084 /* PNLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNLabelViewController.h; sourceTree = "<group>"; };
+		DE91D2EE20639292008B1084 /* PNLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNLabelViewController.m; sourceTree = "<group>"; };
+		DE91D2F02063929B008B1084 /* PNButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNButtonViewController.h; sourceTree = "<group>"; };
+		DE91D2F12063929B008B1084 /* PNButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNButtonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,14 @@
 				DE785F08205F6A5E00758B17 /* AppDelegate.m */,
 				DE785F0A205F6A5E00758B17 /* ViewController.h */,
 				DE785F0B205F6A5E00758B17 /* ViewController.m */,
+				DE91D2E72063927E008B1084 /* PNProgressViewController.h */,
+				DE91D2E82063927E008B1084 /* PNProgressViewController.m */,
+				DE91D2EA20639288008B1084 /* PNTextViewController.h */,
+				DE91D2EB20639288008B1084 /* PNTextViewController.m */,
+				DE91D2ED20639292008B1084 /* PNLabelViewController.h */,
+				DE91D2EE20639292008B1084 /* PNLabelViewController.m */,
+				DE91D2F02063929B008B1084 /* PNButtonViewController.h */,
+				DE91D2F12063929B008B1084 /* PNButtonViewController.m */,
 				DE785F45205F849B00758B17 /* PNGradientView */,
 				DE785F0D205F6A5E00758B17 /* Main.storyboard */,
 				DE785F10205F6A5E00758B17 /* Assets.xcassets */,
@@ -168,8 +188,8 @@
 		DE785F47205F85A600758B17 /* labelBgGradientColor */ = {
 			isa = PBXGroup;
 			children = (
-				DE785F3C205F825E00758B17 /* CRGradientLabel.h */,
-				DE785F40205F825E00758B17 /* CRGradientLabel.m */,
+				DE785F3C205F825E00758B17 /* PNGradientLabel.h */,
+				DE785F40205F825E00758B17 /* PNGradientLabel.m */,
 			);
 			path = labelBgGradientColor;
 			sourceTree = "<group>";
@@ -177,8 +197,8 @@
 		DE785F48205F895500758B17 /* textGradientColor */ = {
 			isa = PBXGroup;
 			children = (
-				DE785F3D205F825E00758B17 /* HCGradientLabel.h */,
-				DE785F3E205F825E00758B17 /* HCGradientLabel.m */,
+				DE785F3D205F825E00758B17 /* PNGradientText.h */,
+				DE785F3E205F825E00758B17 /* PNGradientText.m */,
 			);
 			path = textGradientColor;
 			sourceTree = "<group>";
@@ -186,8 +206,8 @@
 		DE785F49205F896800758B17 /* progressGradientColor */ = {
 			isa = PBXGroup;
 			children = (
-				DE91D2E4206388FD008B1084 /* PLRandomProgressView.h */,
-				DE91D2E5206388FD008B1084 /* PLRandomProgressView.m */,
+				DE91D2E4206388FD008B1084 /* PNRandomProgressView.h */,
+				DE91D2E5206388FD008B1084 /* PNRandomProgressView.m */,
 			);
 			path = progressGradientColor;
 			sourceTree = "<group>";
@@ -327,11 +347,15 @@
 			files = (
 				DE785F0C205F6A5E00758B17 /* ViewController.m in Sources */,
 				DE785F3B205F822900758B17 /* PNGradientButton.m in Sources */,
+				DE91D2F22063929B008B1084 /* PNButtonViewController.m in Sources */,
 				DE785F17205F6A5E00758B17 /* main.m in Sources */,
-				DE785F42205F825F00758B17 /* HCGradientLabel.m in Sources */,
-				DE91D2E6206388FE008B1084 /* PLRandomProgressView.m in Sources */,
+				DE785F42205F825F00758B17 /* PNGradientText.m in Sources */,
+				DE91D2EC20639288008B1084 /* PNTextViewController.m in Sources */,
+				DE91D2E6206388FE008B1084 /* PNRandomProgressView.m in Sources */,
 				DE785F09205F6A5E00758B17 /* AppDelegate.m in Sources */,
-				DE785F43205F825F00758B17 /* CRGradientLabel.m in Sources */,
+				DE785F43205F825F00758B17 /* PNGradientLabel.m in Sources */,
+				DE91D2E92063927E008B1084 /* PNProgressViewController.m in Sources */,
+				DE91D2EF20639292008B1084 /* PNLabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

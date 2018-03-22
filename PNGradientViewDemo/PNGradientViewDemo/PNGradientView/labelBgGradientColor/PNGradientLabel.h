@@ -1,11 +1,6 @@
 //
-//  CRGradientLabel.h
-//  CRGradientLabel
-//
-//  Created by Christian Roman on 4/1/14.
-//  Copyright (c) 2014 Christian Roman. All rights reserved.
-//
-//
+//  PNGradientLabel.h
+//  PNGradientLabel
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
 //  in the Software without restriction, including without limitation the rights
@@ -27,7 +22,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CRGradientLabel : UILabel
+@interface PNGradientLabel : UILabel
 /** 渐变色 从上往下*/
 @property (nonatomic, strong) NSArray *gradientColors;
 @end

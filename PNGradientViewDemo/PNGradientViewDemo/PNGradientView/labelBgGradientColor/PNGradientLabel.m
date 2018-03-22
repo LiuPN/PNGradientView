@@ -1,9 +1,6 @@
 //
-//  CRGradientLabel.m
-//  CRGradientLabel
-//
-//  Created by Christian Roman on 4/1/14.
-//  Copyright (c) 2014 Christian Roman. All rights reserved.
+//  PNGradientLabel.m
+//  PNGradientLabel
 //
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -25,15 +22,15 @@
 //  THE SOFTWARE.
 //  背景是渐变色的label
 
-#import "CRGradientLabel.h"
+#import "PNGradientLabel.h"
 
 @import CoreGraphics;
 
-@interface CRGradientLabel ()
+@interface PNGradientLabel ()
 @property (nonatomic, copy) NSString *contentText;
 @end
 
-@implementation CRGradientLabel
+@implementation PNGradientLabel
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -57,7 +54,7 @@
         } else if (CFGetTypeID((__bridge void *)obj) == CGColorGetTypeID()) {
             [colors addObject:obj];
         } else {
-            @throw [NSException exceptionWithName:@"CRGradientLabelError"
+            @throw [NSException exceptionWithName:@"PNGradientLabelError"
                                            reason:@"Object in gradientColors array is not a UIColor or CGColorRef"
                                          userInfo:NULL];
         }

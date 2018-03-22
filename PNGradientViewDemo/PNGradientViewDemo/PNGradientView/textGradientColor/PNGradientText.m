@@ -1,14 +1,11 @@
 //
-//  HCGradientLabel.m
+//  PNGradientText.m
 //  绘图
-//
-//  Created by 胡超 on 2017/12/21.
-//  Copyright © 2017年 胡超. All rights reserved.
 //  文字是渐变色的label
 
-#import "HCGradientLabel.h"
+#import "PNGradientText.h"
 
-@implementation HCGradientLabel
+@implementation PNGradientText
 {
     NSMutableArray *gradientColors;
 }
@@ -46,13 +43,13 @@
     CGPoint startPoint = CGPointZero;
     CGPoint endPoint = CGPointZero;
     switch (self.gradientDirection) {
-        case HCGradientDirectionLeftToRight:
+        case PNGradientDirectionLeftToRight:
         {
             endPoint = CGPointMake(width, 0);
         }
             break;
             
-        case HCGradientDirectionTopLeftToBottomRight:
+        case PNGradientDirectionTopLeftToBottomRight:
         {
            
             startPoint = CGPointMake(0, height);
@@ -60,13 +57,13 @@
         }
             break;
             
-        case HCGradientDirectionBottomLeftToTopRight:
+        case PNGradientDirectionBottomLeftToTopRight:
         {
             endPoint = CGPointMake(width, height);
         }
             break;
             
-            case HCGradientDirectionTopToTopBottom:
+            case PNGradientDirectionTopToTopBottom:
         {
             startPoint = CGPointMake(0, height);
             endPoint = CGPointZero;
@@ -84,10 +81,10 @@
 
 - (instancetype)initWithColors:(NSArray<UIColor *> *)colors
 {
-   return  [self initWithColors:colors gradientDirection:HCGradientDirectionLeftToRight];
+   return  [self initWithColors:colors gradientDirection:PNGradientDirectionLeftToRight];
 }
 
-- (instancetype)initWithColors:(NSArray<UIColor *> *)colors gradientDirection:(HCGradientDirection)gradientDirection
+- (instancetype)initWithColors:(NSArray<UIColor *> *)colors gradientDirection:(PNGradientDirection)gradientDirection
 {
     self = [super init];
     if (self) {
@@ -104,13 +101,13 @@
 {
     if (self = [super initWithFrame:frame]) {
         gradientColors  = [NSMutableArray new];
-        self.colors = @[[UIColor blackColor],[UIColor whiteColor]];
-        self.gradientDirection = HCGradientDirectionLeftToRight;
+        self.colors = @[[UIColor blackColor],[UIColor redColor]];
+        self.gradientDirection = PNGradientDirectionLeftToRight;
     }
     return self;
 }
 
-- (void)setGradientDirection:(HCGradientDirection)gradientDirection
+- (void)setGradientDirection:(PNGradientDirection)gradientDirection
 {
     _gradientDirection = gradientDirection;
     [self setNeedsDisplay];
