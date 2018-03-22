@@ -4,6 +4,12 @@
 # 1 渐变进度条
 
 ![image1](https://raw.githubusercontent.com/LiuPN/PNGradientView/master/PNGradientViewDemo/PNGradientViewDemo/GradientVc/1_.png)
+代码调用：
+// 添加控件
+    PNRandomProgressView *randomPv = [[PNRandomProgressView alloc] initWithFrame:CGRectMake(100, 200, 200, 50)];
+    randomPv.colors = @[[UIColor redColor], [UIColor greenColor]];
+    randomPv.progress = 0.6;
+    [self.view addSubview:randomPv];
 
 # 2 渐变文字
 
