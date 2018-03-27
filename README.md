@@ -31,7 +31,8 @@
     gradientTxt.text = @"我是渐变文字";
     gradientTxt.gradientDirection = PNGradientDirectionLeftToRight; // 默认渐变方向
     [self.view addSubview:gradientTxt];
-  ```
+    
+```
 
 ### 3 UILabel背景渐变
 
@@ -44,7 +45,8 @@
     gradientLbl.gradientColors = @[[UIColor redColor], [UIColor yellowColor]];
     gradientLbl.text = @"标签背景色渐变";
     [self.view addSubview:gradientLbl];
-  ```
+    
+```
 
 ### 4 UIButton背景渐变
 
@@ -58,4 +60,5 @@
     gradientBtn.contentText = @"我是渐变按钮";
     gradientBtn.noRoundedRectangle = NO; // 默认是圆角矩形
     [self.view addSubview:gradientBtn];
+    
  ```
