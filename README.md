@@ -14,7 +14,7 @@
     [self.view addSubview:randomPv];
     
   ### 动画实例
-  ![gif](https://raw.githubusercontent.com/LiuPN/PNGradientView/PNGradientViewDemo/PNGradientViewDemo/GradientVc/qazxsw1.gif)
+  ![gif](https://github.com/LiuPN/PNGradientView/blob/master/PNGradientViewDemo/PNGradientViewDemo/GradientVc/qazxsw1.gif)
 
 ### 2 渐变文字
 
