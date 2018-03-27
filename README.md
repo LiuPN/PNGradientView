@@ -12,6 +12,9 @@
     randomPv.colors = @[[UIColor redColor], [UIColor greenColor]];
     randomPv.progress = 0.6;
     [self.view addSubview:randomPv];
+    
+  ### 动画实例
+  ![gif](PNGradientView/PNGradientViewDemo/PNGradientViewDemo/GradientVc/qazxsw1.gif)
 
 ### 2 渐变文字
 
